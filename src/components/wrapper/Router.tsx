@@ -3,7 +3,7 @@ import { Navigate, RouteObject, useRoutes } from "react-router";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
-
+// import.meta.env.REACT_APP_....
 export interface RouterProps {
     defaultRoute: string;
 }
