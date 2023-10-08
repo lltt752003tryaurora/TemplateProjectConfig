@@ -18,7 +18,8 @@ export const Routes = (props: RouterProps) => {
 
     const element = useRoutes([defaultRouteObject, ...routes]);
     return (
-        <React.Suspense>
+        // truyền component Loading vào attribute fallback để chạy fallback={</Loading>}
+        <React.Suspense fallback={</Loading>}</React.Suspense>>
             {element}
         </React.Suspense>
     )
